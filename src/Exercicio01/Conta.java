@@ -1,0 +1,26 @@
+package Exercicio01;
+
+public class Conta {
+    //atributos ou variáveis de instancia
+     String correntista;
+     int numero;
+     double saldo;
+
+
+
+      // método para depositar um valor
+     public void depositar(double valor){
+         saldo = saldo + valor;
+     }
+
+     //método para sacar um valor da conta
+      public void sacar (double valor){
+         saldo = saldo - valor;
+      }
+
+
+
+
+         }
+
+
